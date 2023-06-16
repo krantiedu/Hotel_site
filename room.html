@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontsAwesom -->
+    <script
+      src="https://kit.fontawesome.com/dcdd8c60bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/room.css"/>
+  </head>
+  <body>
+    <!-- Navigation Bar & Drawer -->
+    <div class="navbar_wrap">
+      <div class="navbar_content">
+        <div class="nav_title">
+          <div class="image_avatar">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesn1vekBrpVQyzQem-vEdXJVfmQ3NHbSYfw&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <h3 class="brand_title">Sample</h3>
+        </div>
+
+        <div class="nav_links_wrap">
+          <ul class="nav_links">
+            <li class="nav_active">Home</li>
+            <li>Rooms</li>
+            <li>Services</li>
+            <li>About us</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+
+        <div class="nav_avatar_wrap">
+          <i class="fa-solid fa-bars" id="drawer_opener"></i>
+          <div class="image_avatar">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesn1vekBrpVQyzQem-vEdXJVfmQ3NHbSYfw&usqp=CAU"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar_drawer">
+      <ul class="nav_links">
+        <li class="nav_active">Home</li>
+        <li>Rooms</li>
+        <li>Services</li>
+        <li>About us</li>
+        <li>Contact us</li>
+      </ul>
+    </div>
+
+
+    <!-- Page Content section -->
+    <div class="content_wrap">
+      <div class="room_content">
+        <div class="room_images">
+          <div class="main_img">
+            <img
+              class="img_1"
+              src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Lake_Palace_Udaipur/images/new-images/Sandhya%20-%20Historical%20Suite.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"
+            />
+          </div>
+          <div class="side_imgs">
+            <div class="img_top_wrap">
+              <div class="img_top">
+                <img
+                  class="img_3"
+                  src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Lake_Palace_Udaipur/images/new-images/Sisarma%20Darshan%20-%20Historical%20Suite%20Bedroom.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"
+                />
+              </div>
+            </div>
+            <div class="img_bottom">
+              <div class="img_first">
+                <img
+                  class="img_4"
+                  src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Lake_Palace_Udaipur/images/new-images/Rang%20Mahal%20-%20Historical%20Suite%20(3).jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"
+                />
+              </div>
+
+              <div class="img_last">
+                <img
+                  class="img_2"
+                  src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Lake_Palace_Udaipur/images/new-images/Sisarma%20Darshan%20-%20Historical%20Suite.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="room_info_wrap">
+          <div class="room_title">
+            <h3>Historical Suite Living with Lake View</h3>
+          </div>
+          <ul class="room_features">
+            <li>4 Guests</li>
+            <li>Kings Bed</li>
+            <li>Inclusive of Wifi</li>
+            <li>Lake's View</li>
+          </ul>
+          <ul class="room_info_links">
+            <li class="room_avtive_link">Description</li>
+            <li>Details</li>
+            <li>Reviews</li>
+          </ul>
+          <div class="des_container">
+            <p>
+              The Historical Suites present a welcoming ambience with marble
+              floors, exquisite Rajasthani artwork and sheer fabrics, which
+              enable crisp sunlight to enhance the beauty of each room. A
+              four-poster bed, a sitting area overlooking Lake Pichola, a
+              walk-in wardrobe and a spacious bathroom make these suites ideal
+              for the discerning leisure traveler. Suite Names are Rang Mahal,
+              Sandhya & Sisarma Darshan.
+            </p>
+          </div>
+          <div class="det_container">
+            <h6>ROOM DETAILS</h6>
+            <p>Luxury Rooms offer princely-inspired décor with stunning views of the Lily Pond. Each room is unique in size and is adorned with traditional Indian silks and dark teak furniture.</p>
+            <h6>SIZE</h6>
+            <p>21-33 Sq Mt</p>
+            <h6>Occupancy Details</h6>
+            <p>Up to 2 guests. Max Adults: 2, Max Children: 0</p>
+            <h6>BED & BATH</h6>
+            <p>Cypress waffle bathrobes & slippers
+                Rollaway beds are available on additional charge on a per night basis
+                Lit makeup mirror, hair dryer & scale
+                Pillow & quilt menu
+                Bath setup at nominal charge
+                Ploh feather duvet & mattress top</p>
+          </div>
+        </div>
+      </div>
+      <div class="maps_booking_wrap">
+        <div class="booking_section">
+            <div class="booking_head">
+                <p class="rate">₹5000<span>/night</span></p>
+                <i id="booking_close" class="fa-regular fa-xmark"></i>
+            </div>
+          
+          <hr />
+          <label for="">Check-in</label>
+          <input name="Check-in" id="Check_in" type="date" />
+          <label for="">Check-out</label>
+          <span id="error"></span>
+          <input name="Check_out" id="Check_out" type="date" />
+
+          <div class="amount_cal" id="amount">
+            <p>₹5000 * _ nights</p>
+            <span>₹_</span>
+          </div>
+          <div class="amount_cal" id="discount">
+            <p>Weekly Discounts</p>
+            <span>- ₹500</span>
+          </div>
+          <div class="amount_cal">
+            <p>Service Fee</p>
+            <span>₹500</span>
+          </div>
+          <hr />
+          <div class="amount_cal" id="total_amount">
+            <p>Total Amount</p>
+            <span>₹_</span>
+          </div>
+          <button id="reserve" disabled>Reserve Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="Booking_button">
+        <button id="booking_button">Book Now</button>
+    </div>
+    <div class="payment_wrap">
+      <div class="payment_content">
+        <div class="payment_head">
+          <p>Confirm payment</p>
+          <span id="close_paybox"><i class="fa-regular fa-xmark"></i></span>
+        </div>
+        <div id="Check_in_date">
+          <p>Check-in</p>
+          <div>a</div>
+        </div>
+        <div id="Check_out_date">
+          <p>Check-out</p>
+          <div>a</div>
+        </div>
+        <p>Payment Options</p>
+        <div class="payment_box">
+          <label>
+            <span id="half_pay">Half Payment</span><input type="radio" name="payment" value="half" />
+          </label>
+          <label>
+            <span id="full_pay">Full Payment</span>
+            <input type="radio" name="payment" value="full" checked />
+          </label>
+        </div>
+        <button>Confirm Payment</button>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./Scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
