@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Hotel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,10 +17,13 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/room.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    
   </head>
   <body>
+    <div class="main">
     <!-- Navigation Bar & Drawer -->
-    <div class="navbar_wrap">
+    <!-- <div class="navbar_wrap">
       <div class="navbar_content">
         <div class="nav_title">
           <div class="image_avatar">
@@ -60,7 +64,64 @@
         <li>About us</li>
         <li>Contact us</li>
       </ul>
-    </div>
+    </div> -->
+
+
+
+    <nav class="navbar">
+      <div class="navbar-container N_container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">Navbar</h1>
+      </div>
+    </nav>
+
+
+    <div class="main">
+      <div class="front_content_wrap">
+        <div class="front_content">
+          <div class="div1">
+            <img src="./image/hotel.png" class="image" />
+            <div class="icons">
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f" style="color: #ffffff"> </i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-instagram" style="color: #ffffff"> </i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-whatsapp" style="color: #ffffff"> </i>
+              </div>
+            </div>
+          </div>
+          <div class="p_container">
+  
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Page Content section -->
@@ -208,7 +269,46 @@
       </div>
     </div>
 
+
+
+    <div class="container">
+      <footer class="footer">
+        <section class="link_sec">
+          <h2>Phon Support</h2>
+          <p>24 hrs a day</p>
+          <h1>+91 1234 123 123</h1>
+        </section>
+        <section class="link_sec">
+          <h3>Follow Us</h3>
+          <p>our social media links</p>
+          <i class="fa-brands fa-facebook-f"> </i>
+          <i class="fa-brands fa-instagram"> </i>
+          <i class="fa-brands fa-whatsapp"> </i>
+        </section>
+
+        <section class="link_sec">
+          <h3>Get in Touch !</h3>
+          <p>You can trust us. we only send promo offers,</p>
+          <fieldset class="subscribe_sec">
+            <input type="email" name="newsletter" placeholder="Your Email Address" />
+            <input type="email" name="newsletter" placeholder="Your Mobile no." />
+            <button class="btn btn_2">Subscribe</button>
+          </fieldset>
+        </section>
+      </footer>
+    </div>
+
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./Scripts/index.js" charset="utf-8"></script>
+    <script>
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector(".main"),
+        smooth: true,
+      });
+    </script>
   </body>
 </html>

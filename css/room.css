@@ -135,7 +135,7 @@ a {
 }
 
 .room_content {
-  width: 69%;
+  width: 100%;
 }
 
 .room_images {
@@ -555,9 +555,16 @@ p {
   .maps_booking_wrap_open {
     display: flex;
   }
+
+  .room_images ::-webkit-scrollbar{
+    display: none;
+  }
 }
 /* Mobile */
 @media (max-width: 699px) {
+  .room_images ::-webkit-scrollbar{
+    display: none;
+  }
   .maps_booking_wrap {
     position: fixed;
     display: none;
@@ -680,7 +687,7 @@ p {
     height: 40vh;
     gap: 0px;
     overflow: hidden;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
 
   .room_images img {
